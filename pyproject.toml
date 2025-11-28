@@ -9,8 +9,14 @@ dependencies = [
     "llama-index>=0.10.0",
     "langchain>=0.1.0",
     "langgraph>=0.0.20",
+    "smolagents>=1.0.0",
     "openai>=1.0.0",
     "tiktoken>=0.5.0",
+    "langchain-community>=0.4.1",
+    "rank-bm25>=0.2.2",
+    "llama-index-retrievers-bm25>=0.6.5",
+    "llama-index-llms-huggingface>=0.6.1",
+    "llama-index-llms-huggingface-api>=0.6.1",
 ]
 
 [project.optional-dependencies]
